@@ -28,6 +28,5 @@ end
  l=length(pwm)/15;
     for m=1:l
        result=result+sum(pwm(1+(m-1)*15:m*15))*16^(m-1);
-    end    
+    end
 result
- 
