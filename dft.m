@@ -28,8 +28,9 @@ for m=1:4
     end
     f(m)=abs(f(m));
 end
+% f=fftshift(f);
 
 
 
 %u = df*(-(4-1)/2:(4-1)/2); % ¶Ô³ÆÆµÆ×(º¬¸ºÆµ)
-figure,plot(x,f)
+figure,plot(f)
